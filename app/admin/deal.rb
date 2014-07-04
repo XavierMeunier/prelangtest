@@ -1,4 +1,5 @@
 ActiveAdmin.register Deal do
+  permit_params :website_url
 
   
   # See permitted parameters documentation:
